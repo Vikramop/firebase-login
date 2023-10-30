@@ -27,6 +27,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  align-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -53,6 +55,14 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.input {
+  margin-left: 20px;
+}
+
+.btn {
+  margin-left: 30px;
 }
 
 @media (prefers-color-scheme: light) {
